@@ -13,7 +13,7 @@ export default class FileHelper {
       fileStatuses.push({
         size: prettyBites(size),
         file: currentFiles[fileIndex],
-        owner: process.env.USER,
+        owner: process.env.USERNAME,
         lastModified: birthtime,
       });
     }

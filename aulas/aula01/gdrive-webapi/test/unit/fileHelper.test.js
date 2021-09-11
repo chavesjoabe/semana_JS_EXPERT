@@ -27,7 +27,7 @@ describe("FileHelper", () => {
         birthtime: "2021-09-10T21:04:59.768Z",
       };
 
-      const mockUser = "Joabe Chaves";
+      const mockUser = "joabe.f.chaves";
       process.env.USER = mockUser;
       const fileName = "links.txt";
 
